@@ -1,0 +1,57 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 20,
+    backgroundColor: '#f5f5f5', 
+  },
+  label: {
+    fontSize: 24,
+    marginBottom: 15,
+    color: '#333',
+    fontWeight: '600',
+    fontFamily: 'Arial', 
+    textAlign: 'center',
+  },
+  input: {
+    height: 50,
+    borderColor: '#4CAF50',
+    borderWidth: 2,
+    marginBottom: 20,
+    paddingHorizontal: 15,
+    borderRadius: 10,
+    backgroundColor: '#ffffff', 
+    color: '#333', 
+    fontSize: 18,
+    fontFamily: 'Courier New',
+  },
+  button: {
+    backgroundColor: '#4CAF50', 
+    paddingVertical: 12,
+    borderRadius: 10,
+    alignItems: 'center',
+    width: '100%',
+    marginTop: 10,
+  },
+  buttonText: {
+    color: '#ffffff',
+    fontWeight: 'bold',
+    fontSize: 18,
+    fontFamily: 'Arial', 
+  },
+  result: {
+    fontSize: 28,
+    marginTop: 30,
+    fontWeight: '700',
+    color: '#4CAF50', 
+    textAlign: 'center',
+    padding: 12,
+    borderRadius: 10,
+    backgroundColor: '#e8f5e9', 
+    width: '90%',
+    elevation: 3, 
+  },
+});
